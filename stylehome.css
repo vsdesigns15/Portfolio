@@ -24,6 +24,10 @@ h1 {
     color: white;
 }
 
+a {
+    text-decoration: none;
+}
+
 span {
     font-family: droid-sans-mono, monospace;
     font-style: normal;
@@ -276,12 +280,13 @@ header .menu .menu__close:after {
     border-radius: 2.5px;
     background-color: #4149F1;
     color: white;
-    padding: 25px 39px 25px 39px;
+    padding: 25px 39px;
     cursor: pointer;
     text-decoration: none;
     transition-property: all;
     transition-duration: 0.25s;
     margin-top: 1rem;
+    text-align: center;
 }
 
 .hero .secondary {
@@ -1380,8 +1385,7 @@ footer ul a:hover {
         padding-right: 110px;
     }
     .hero a {
-        padding-left: 85px;
-        padding-right: 85px;
+        width: 100%;
     }
     .project .secondary {
         margin-left: 0rem;
