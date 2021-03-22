@@ -234,6 +234,7 @@ header .menu .menu__close:after {
     width: 80%;
     margin: auto;
     padding-top: 5.8125rem;
+    overflow: hidden;
 }
 
 .hero .container {
