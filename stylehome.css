@@ -276,7 +276,6 @@ header .menu .menu__close:after {
     font-weight: 500;
     font-size: 0.9rem;
     font-weight: 600;
-    line-height: 0;
     border-radius: 2.5px;
     background-color: #4149F1;
     color: white;
@@ -510,12 +509,12 @@ header .menu .menu__close:after {
     font-family: aktiv-grotesk, sans-serif;
     font-weight: 500;
     font-size: 0.9rem;
-    line-height: 0;
     display: inline-block;
     border-radius: 2.5px;
     background-color: #4149F1;
     color: white;
-    padding: 25px 39px 25px 39px;
+    padding: 25px 39px;
+    text-align: center;
     cursor: pointer;
     text-decoration: none;
     transition-property: all;
@@ -1503,7 +1502,6 @@ footer ul a:hover {
     font-family: aktiv-grotesk, sans-serif;
     font-weight: 500;
     font-size: 0.9rem;
-    line-height: 0;
     display: inline-block;
     border-radius: 2.5px;
     background-color: #4149F1;
