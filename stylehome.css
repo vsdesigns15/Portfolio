@@ -1,3 +1,37 @@
+@font-face {
+    font-family: 'EudoxusSans-Bold';
+    src: url('./images/fonts/EudoxusSans-Bold.ttf') format('truetype'),
+         url('/images/fonts/EudoxusSans-Bold.woff') format('woff'),
+         url('./images/fonts/EudoxusSans-Bold.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'EudoxusSans-Regular';
+    src: url('./images/fonts/EudoxusSans-Regular.ttf') format('truetype'),
+         url('/images/fonts/EudoxusSans-Regular.woff') format('woff'),
+         url('./images/fonts/EudoxusSans-Regular.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'EudoxusSans-Light';
+    src: url('./images/fonts/EudoxusSans-Light.ttf') format('truetype'),
+         url('/images/fonts/EudoxusSans-Light.woff') format('woff'),
+         url('./images/fonts/EudoxusSans-Light.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'IntegralCF';
+    src: url('/images/fonts/IntegralCF-Bold.woff') format('woff'),
+         url('./images/fonts/IntegralCF-Bold.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'IntegralCF';
+    src: url('/images/fonts/IntegralCF-Medium.woff') format('woff'),
+         url('./images/fonts/IntegralCF-Medium.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'IntegralCF';
+    src: url('/images/fonts/IntegralCF-Regular.woff') format('woff'),
+         url('./images/fonts/IntegralCF-Regular.woff2') format('woff2');
+  }
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -553,7 +587,7 @@ header .menu .menu__close:after {
     width: 49px;
     height: 49px;
     border-radius: 50%;
-    background-color: #012D90;
+    background-color: #BF2C37;
     border: solid white;
 }
 
@@ -561,7 +595,7 @@ header .menu .menu__close:after {
     width: 49px;
     height: 49px;
     border-radius: 50%;
-    background-color: #FF4900;
+    background-color: #FFD300;
     border: solid white;
     margin-top: 3rem;
 }
@@ -570,7 +604,7 @@ header .menu .menu__close:after {
     width: 49px;
     height: 49px;
     border-radius: 50%;
-    background-color: #F8F4C5;
+    background-color: #4D4D4F;
     border: solid white;
     margin-top: 3rem;
 }
@@ -594,21 +628,21 @@ header .menu .menu__close:after {
 }
 
 .project h2 {
-    font-family: skolar-latin, serif;
+    font-family: 'IntegralCF', serif;
     color: white;
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 .project .seperator {
     height: 79px;
-    border: solid #FF4900;
+    border: solid #BF2C37;
     border-width: 1px;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
 }
 
 .project h3 {
-    font-family: skolar-latin, serif;
+    font-family: 'IntegralCF', serif;
     text-transform: uppercase;
     font-weight: 600;
     font-size: 1.5rem;
@@ -621,16 +655,16 @@ header .menu .menu__close:after {
 }
 
 .project h4 {
-    font-family: skolar-latin, serif;
+    font-family: 'IntegralCF', serif;
     font-size: 0.875rem;
 }
 
 .project .light {
-    font-weight: 200;
+    font-weight: 400;
 }
 
 .project .reg {
-    font-weight: 400;
+    font-weight: 500;
     padding-left: 2.5rem;
 }
 
@@ -640,7 +674,7 @@ header .menu .menu__close:after {
 }
 
 .project h5 {
-    font-family: skolar-latin, serif;
+    font-family: 'IntegralCF', serif;
     font-size: 0.75rem;
     font-weight: 400;
     line-height: 2;
@@ -649,7 +683,7 @@ header .menu .menu__close:after {
 .project .upper {
     width: 325px;
     height: 176px;
-    background-color: #FF4900;
+    background-color: #BF2C37;
     border-radius: 8px;
     display: flex;
     align-items: center;
@@ -661,35 +695,30 @@ header .menu .menu__close:after {
 }
 
 .project .proxima {
-    font-family: proxima-nova, sans-serif;
-    font-weight: bold;
-    font-style: normal;
+    font-family: 'EudoxusSans-Bold', sans-serif;
 }
 
 .project .proxi {
-    font-family: proxima-nova, sans-serif;
-    font-weight: bold;
+    font-family: 'EudoxusSans-Bold';
+    font-weight: 700;
 }
 
 .project .pligh {
-    font-weight: lighter;
-    font-family: proxima-nova, sans-serif;
+    font-family: 'EudoxusSans-Light';
 }
 
 .project .preg {
-    font-weight: normal;
     padding-left: 2.5rem;
-    font-family: proxima-nova, sans-serif;
+    font-family: 'EudoxusSans-Regular';
 }
 
 .project .pbold {
-    font-weight: bold;
     padding-left: 2.5rem;
-    font-family: proxima-nova, sans-serif;
+    font-family: 'EudoxusSans-Bold';
 }
 
 .project .prox {
-    font-family: proxima-nova, sans-serif;
+    font-family: 'EudoxusSans-Bold';
     font-weight: 400;
     line-height: 2;
 }
