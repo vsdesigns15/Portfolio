@@ -31,6 +31,11 @@
     src: url('/images/fonts/IntegralCF-Regular.woff') format('woff'),
          url('./images/fonts/IntegralCF-Regular.woff2') format('woff2');
   }
+  @font-face {
+    font-family: 'Droid Sans Mono Regular';
+    src: url('/images/fonts/Droid\ Sans\ Mono\ Regular.woff') format('woff'),
+         url('./images/fonts/Droid\ Sans\ Mono\ Regular.woff2') format('woff2');
+  }
 
 * {
     box-sizing: border-box;
@@ -63,7 +68,7 @@ a {
 }
 
 span {
-    font-family: droid-sans-mono, monospace;
+    font-family: 'Droid Sans Mono Regular';
     font-style: normal;
     font-weight: 400;
     background-color: #5C11F2;
@@ -1893,7 +1898,7 @@ footer ul a:hover {
 
 .cv-main .bullet p {
     padding-left: 0.8rem;
-    font-family: droid-sans-mono, monospace;
+    font-family: 'Droid Sans Mono Regular';
     font-style: normal;
     font-weight: 400;
     font-size: 1.125rem;
