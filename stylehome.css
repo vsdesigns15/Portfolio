@@ -508,7 +508,7 @@ header .menu .menu__close:after {
     width: 46%;
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: flex-end;
     margin-left: 2rem;
 }
 
@@ -1475,8 +1475,8 @@ footer ul a:hover {
 
 /* PROJECT PAGE */
 
-.hero-project .project-image {
-    max-width: 1920px;
+    .project-image {
+    max-width: 100%;
     position: absolute;
     top: 0;
     right: 0;
