@@ -1590,6 +1590,10 @@ footer ul a:hover {
 
 @media only screen and (max-width: 1280px) {
 
+    .project-image {
+       display: none;
+    }
+
     .hero-project .circle-project {
         display: block;
         right: 150px;
