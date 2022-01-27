@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Project Smarty | Velislav Stefanov</title>
+
+     <!-- CSS -->
+     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+     <link rel="stylesheet" href="/css/theme.css">
+
+     <!-- JS -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" defer></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollToPlugin.min.js" defer></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js" defer></script>
+     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js" defer></script>
+     <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js" defer></script>
+
+     <script src="/js/wow.min.js" defer></script>
+     <script src="/js/theme.js" defer></script>
+</head>
+
+<body class="page project-page">
+
+     <div class="site-wrapper">
+
+          <header class="site-header main-tool-bar hidden wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+               <div class="container header-container">
+                    <div class="site-title">
+                         <h1 class="site-logo very-small">
+                              <a href="/" class="site-logo-link">
+                                   <img src="/images/logo.svg" alt="Velislav Stefanov" width="194" height="16">
+                              </a>
+                              <span class="site-logo-description">UI/UX designer</span>
+                         </h1>
+                    </div>
+                    <nav class="site-navigation">
+                         <ul class="nav">
+                              <li><a href="/projects.html">Work</a></li>
+                              <li><a href="/cv.html">My cv</a></li>
+                         </ul>
+                    </nav>
+               </div>
+          </header>
+
+          <main class="site-main">
+
+               <div class="container section-gutter">
+                    <div class="project-hero hidden wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
+                         <picture>
+                              <source media="(min-width: 1200px)"
+                                   srcset="/images/projects/project-smarty-home-desktop.jpg">
+                              <source media="(min-width: 768px)"
+                                   srcset="/images/projects/project-smarty-home-tablet.jpg">
+                              <source media="(min-width: 320px)"
+                                   srcset="/images/projects/project-smarty-home-mobile.jpg">
+                              <img src="/images/projects/project-smarty-home-desktop.jpg" width="1300" height="600"
+                                   alt="Project Smarty" />
+                         </picture>
+                    </div>
+               </div>
+
+               <div class="container section-gutter">
+                    <div class="project-description-wrapper">
+                         <div class="project-information">
+                              <div class="project-info">
+                                   <h2 class="quinary-heading hidden wow fadeInUp" data-wow-duration="1s"
+                                        data-wow-delay="0.2s">About the project</h2>
+                                   <ul class="project-type no-list-style">
+                                        <li class="hidden wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
+                                             Personal project</li>
+                                        <li class="hidden wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+                                             <a href="https://www.figma.com/proto/DZOi9dEoDeRv8J2ByvAq9I/Smarty?page-id=2%3A3&node-id=13%3A907&viewport=298%2C48%2C0.12&scaling=scale-down&starting-point-node-id=13%3A907"
+                                                  target="_blank" class="project-prototype-link">
+                                                  Prototype link
+                                                  <svg width="14" height="14" viewBox="0 0 12 12" fill="currentColor"
+                                                       xmlns="http://www.w3.org/2000/svg">
+                                                       <path
+                                                            d="M11.6694 9.77971L11.99 1.36181C12.0012 1.23053 11.985 1.10067 11.9426 0.980459C11.9002 0.860246 11.8325 0.752306 11.7436 0.663484C11.6548 0.574661 11.5469 0.506895 11.4267 0.464484C11.3064 0.422074 11.1766 0.405943 11.0453 0.417117L2.62741 0.737674C2.38048 0.750803 2.13878 0.850731 1.94502 1.01979C1.75126 1.18886 1.61793 1.41616 1.56859 1.66153C1.53471 1.80463 1.53354 1.95085 1.56516 2.08894C1.59678 2.22704 1.66035 2.35335 1.75099 2.45817C1.84163 2.563 1.95694 2.64355 2.08805 2.69364C2.21916 2.74373 2.36259 2.76203 2.50733 2.74713L8.56647 2.49109L0.782635 10.2749C0.58788 10.4697 0.472195 10.7275 0.461028 10.9918C0.449861 11.2561 0.544127 11.5051 0.72309 11.684C0.902052 11.863 1.15105 11.9573 1.41531 11.9461C1.67957 11.9349 1.93744 11.8192 2.13219 11.6245L9.91603 3.84065L9.65998 9.89979C9.64509 10.0445 9.66339 10.188 9.71348 10.3191C9.76357 10.4502 9.84412 10.5655 9.94894 10.6561C10.0538 10.7468 10.1801 10.8103 10.3182 10.842C10.4563 10.8736 10.6025 10.8724 10.7456 10.8385C10.991 10.7892 11.2183 10.6559 11.3873 10.4621C11.5564 10.2683 11.6563 10.0266 11.6694 9.77971Z" />
+                                                  </svg>
+                                             </a>
+                                        </li>
+                                   </ul>
+                              </div>
+                              <div class="project-info">
+                                   <h2 class="quinary-heading hidden wow fadeInUp" data-wow-duration="1s"
+                                        data-wow-delay="0.2s">My role</h2>
+                                   <ul class="project-type">
+                                        <li class="hidden wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
+                                             Visual identity</li>
+                                        <li class="hidden wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+                                             UX & research</li>
+                                        <li class="hidden wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.35s">
+                                             Wireframe & Sitemap</li>
+                                        <li class="hidden wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
+                                             Website design</li>
+                                   </ul>
+                              </div>
+                              <div class="project-info">
+                                   <h2 class="quinary-heading hidden wow fadeInUp" data-wow-duration="1s"
+                                        data-wow-delay="0.2s">Industry</h2>
+                                   <ul class="project-type no-list-style">
+                                        <li class="hidden wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
+                                             Technology</li>
+                                   </ul>
+                              </div>
+                              <div class="project-info">
+                                   <h2 class="quinary-heading hidden wow fadeInUp" data-wow-duration="1s"
+                                        data-wow-delay="0.2s">Tools used</h2>
+                                   <ul class="project-type">
+                                        <li class="hidden wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
+                                             Figma</li>
+                                        <li class="hidden wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+                                             Illustrator</li>
+                                   </ul>
+                              </div>
+                         </div>
+                         <div class="project-description">
+                              <h3 class="tertiary-heading hidden wow fadeInUp" data-wow-duration="1s"
+                                   data-wow-delay="0.2s">The Product</h3>
+                              <p class="hidden wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+                                   Smart technology has become ubiquitous at home - from your dishwasher to your TV,
+                                   your smartphone to your audio system.<br><br>
+                                   Any electrical appliance you can think of is likely powered by a silicon chip and
+                                   growing smarter by the minute. Smarty collects all your smart devices and lets you
+                                   control them with an easy-to-use application.
+                              </p>
+                              <h3 class="tertiary-heading hidden wow fadeInUp" data-wow-duration="1s"
+                                   data-wow-delay="0.2s">The Challenge</h3>
+                              <p class="hidden wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+                                   Unfortunately, smart home devices are expensive, and it's a difficult task to
+                                   convince the users to switch to a whole new level of technology.<br><br>
+                                   Other than that, some people are afraid to trust entirely on their smart devices.
+                                   However, it can be challenging to get home automation functioning without help with
+                                   some systems.
+                              </p>
+                              <h3 class="tertiary-heading hidden wow fadeInUp" data-wow-duration="1s"
+                                   data-wow-delay="0.2s">The Solution</h3>
+                              <p class="hidden wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+                                   As we all know the key to present a great product is a great looking and functional
+                                   website. Since Smarty is working with huge brands like Philips, Sonos, IKEA etc..
+                                   It's easy to put some trust factors throughout the website.<br><br>
+                                   However, the user should explore all the tools he might need. The versatility that
+                                   the application has and ease of use, it's an excellent basis for a smart home.
+                              </p>
+                         </div>
+                    </div>
+               </div>
+
+               <div class="container section-gutter">
+                    <div class="project-mockups-wrapper">
+                         <figure class="project-mockups radius-075 hidden wow fadeInUp" data-wow-duration="1.5s"
+                              data-wow-delay="0.2s">
+                              <a href="/images/projects/Smarty/lightbox/smarty-image-1.jpg" class="glightbox">
+                                   <img src="/images/projects/Smarty/smarty-image-1.jpg" alt="Project Smarty | Mockup 1"
+                                        width="1300" height="992" loading="lazy" />
+                              </a>
+                         </figure>
+                         <figure class="project-mockups radius-075 hidden wow fadeInUp" data-wow-duration="1.5s"
+                              data-wow-delay="0.2s">
+                              <a href="/images/projects/Smarty/lightbox/smarty-image-2.jpg" class="glightbox">
+                                   <img src="/images/projects/Smarty/smarty-image-2.jpg" alt="Project Smarty | Mockup 2"
+                                        width="1300" height="1081" loading="lazy" />
+                              </a>
+                         </figure>
+                         <figure class="project-mockups radius-big hidden wow fadeInUp" data-wow-duration="1.5s"
+                              data-wow-delay="0.2s">
+                              <a href="/images/projects/Smarty/lightbox/smarty-image-3.jpg" class="glightbox">
+                                   <img src="/images/projects/Smarty/smarty-image-3.jpg" alt="Project Smarty | Mockup 3"
+                                        width="1300" height="975" loading="lazy" />
+                              </a>
+                         </figure>
+                         <figure class="project-mockups radius-big hidden wow fadeInUp" data-wow-duration="1.5s"
+                              data-wow-delay="0.2s">
+                              <a href="/images/projects/Smarty/lightbox/smarty-image-4.jpg" class="glightbox">
+                                   <img src="/images/projects/Smarty/smarty-image-4.jpg" alt="Project Smarty | Mockup 4"
+                                        width="1300" height="975" loading="lazy" />
+                              </a>
+                         </figure>
+                         <figure class="project-mockups radius-big hidden wow fadeInUp" data-wow-duration="1.5s"
+                              data-wow-delay="0.2s">
+                              <a href="/images/projects/Smarty/lightbox/smarty-image-5.jpg" class="glightbox">
+                                   <img src="/images/projects/Smarty/smarty-image-5.jpg" alt="Project Smarty | Mockup 5"
+                                        width="1300" height="977" loading="lazy" />
+                              </a>
+                         </figure>
+                         <figure class="project-mockups radius-big hidden wow fadeInUp" data-wow-duration="1.5s"
+                              data-wow-delay="0.2s">
+                              <a href="/images/projects/Smarty/lightbox/smarty-image-6.jpg" class="glightbox">
+                                   <img src="/images/projects/Smarty/smarty-image-6.jpg" alt="Project Smarty | Mockup 6"
+                                        width="1300" height="868" loading="lazy" />
+                              </a>
+                         </figure>
+                         <figure class="project-mockups radius-big hidden wow fadeInUp" data-wow-duration="1.5s"
+                              data-wow-delay="0.2s">
+                              <a href="/images/projects/Smarty/lightbox/smarty-image-7.jpg" class="glightbox">
+                                   <img src="/images/projects/Smarty/smarty-image-7.jpg" alt="Project Smarty | Mockup 7"
+                                        width="1300" height="975" loading="lazy" />
+                              </a>
+                         </figure>
+                    </div>
+               </div>
+
+               <div class="container">
+                    <div class="project-result">
+                         <h2 class="secondary-heading hidden wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+                              The Result</h2>
+                         <p class="primary-content hidden wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">I
+                              managed to showcase the options when using Smarty as the brains of your smart home. In
+                              every category of devices, Smarty works with a range of brands manufacturing exciting
+                              products. Moreover, it unifies devices from all these brands in a single app.</p>
+                         <p class="hidden wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
+                              <a href="https://www.figma.com/proto/DZOi9dEoDeRv8J2ByvAq9I/Smarty?page-id=2%3A3&node-id=13%3A907&viewport=298%2C48%2C0.12&scaling=scale-down&starting-point-node-id=13%3A907"
+                                   target="_blank" class="project-prototype-link">
+                                   Prototype link
+                                   <svg width="14" height="14" viewBox="0 0 12 12" fill="currentColor"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                             d="M11.6694 9.77971L11.99 1.36181C12.0012 1.23053 11.985 1.10067 11.9426 0.980459C11.9002 0.860246 11.8325 0.752306 11.7436 0.663484C11.6548 0.574661 11.5469 0.506895 11.4267 0.464484C11.3064 0.422074 11.1766 0.405943 11.0453 0.417117L2.62741 0.737674C2.38048 0.750803 2.13878 0.850731 1.94502 1.01979C1.75126 1.18886 1.61793 1.41616 1.56859 1.66153C1.53471 1.80463 1.53354 1.95085 1.56516 2.08894C1.59678 2.22704 1.66035 2.35335 1.75099 2.45817C1.84163 2.563 1.95694 2.64355 2.08805 2.69364C2.21916 2.74373 2.36259 2.76203 2.50733 2.74713L8.56647 2.49109L0.782635 10.2749C0.58788 10.4697 0.472195 10.7275 0.461028 10.9918C0.449861 11.2561 0.544127 11.5051 0.72309 11.684C0.902052 11.863 1.15105 11.9573 1.41531 11.9461C1.67957 11.9349 1.93744 11.8192 2.13219 11.6245L9.91603 3.84065L9.65998 9.89979C9.64509 10.0445 9.66339 10.188 9.71348 10.3191C9.76357 10.4502 9.84412 10.5655 9.94894 10.6561C10.0538 10.7468 10.1801 10.8103 10.3182 10.842C10.4563 10.8736 10.6025 10.8724 10.7456 10.8385C10.991 10.7892 11.2183 10.6559 11.3873 10.4621C11.5564 10.2683 11.6563 10.0266 11.6694 9.77971Z" />
+                                   </svg>
+                              </a>
+                         </p>
+                    </div>
+                    <hr class="project-separator hidden-mobile">
+                    <h2 class="secondary-heading hidden-mobile hidden wow fadeInUp" data-wow-duration="1s"
+                         data-wow-delay="0.2s">What's Next?</h2>
+               </div>
+
+               <div class="section-gutter hidden-desktop"></div>
+
+               <div class="swiper projects-slider hidden-mobile">
+                    <div class="swiper-wrapper">
+                         <div class="swiper-slide">
+                              <div class="container">
+                                   <div class="project-wrapper">
+                                        <div class="project-content-wrapper">
+                                             <div class="project-type small project-type-four-pseudo hidden wow fadeInUp"
+                                                  data-wow-duration="1s" data-wow-delay="0.3s">
+                                                  <span class="project-counter"><span class="count">04</span></span>
+                                                  <span class="project-type-title">UI/UX - Web App</span>
+                                             </div>
+                                             <h2 class="project-title secondary-heading hidden wow fadeInUp"
+                                                  data-wow-duration="1s" data-wow-delay="0.4s">SugarWod</h2>
+                                             <p class="project-content hidden wow fadeInUp" data-wow-duration="1s"
+                                                  data-wow-delay="0.5s">SugarWOD is workout software for coaches and
+                                                  everyday athletes. Strengthen CrossFit affiliates with a solution that
+                                                  supports their community, classes, and coaches.</p>
+                                             <a href="/project-sugarwod.html" class="btn hidden wow fadeInUp" data-wow-duration="1s"
+                                                  data-wow-delay="0.6s">View case study</a>
+                                        </div>
+                                        <div class="project-mockup-wrapper">
+                                             <img src="/images/projects/SugarWod-mockup.png" alt="Project SugarWod"
+                                                  width="740" height="566"
+                                                  class="project-four-mockup-image hidden wow fadeInUp"
+                                                  data-wow-duration="1.5s" data-wow-delay="0.3s">
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="swiper-slide">
+                              <div class="container">
+                                   <div class="project-wrapper">
+                                        <div class="project-content-wrapper">
+                                             <div class="project-type small project-type-one-pseudo">
+                                                  <span class="project-counter"><span class="count">01</span></span>
+                                                  <span class="project-type-title">UI/UX - Web</span>
+                                             </div>
+                                             <h2 class="project-title secondary-heading">Travelloo</h2>
+                                             <p class="project-content">Travelloo is a peer-to-peer car sharing
+                                                  marketplace where you can book any car you want, wherever you want it,
+                                                  from a vibrant community of trusted hosts across the US, Canada, and
+                                                  the UK.</p>
+                                             <a href="/project-travelloo.html" class="btn">View case study</a>
+                                        </div>
+                                        <div class="project-mockup-wrapper">
+                                             <img src="/images/projects/Travelloo-mockup.png" alt="Project Travelloo"
+                                                  width="739" height="524" class="project-one-mockup-image">
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="swiper-slide">
+                              <div class="container">
+                                   <div class="project-wrapper">
+                                        <div class="project-content-wrapper">
+                                             <div class="project-type small project-type-two-pseudo">
+                                                  <span class="project-counter"><span class="count">02</span></span>
+                                                  <span class="project-type-title">UI/UX - App</span>
+                                             </div>
+                                             <h2 class="project-title secondary-heading">Parkeasy</h2>
+                                             <p class="project-content">Parkeasy is a parking reservation application
+                                                  that lets you find and reserve hourly, monthly, airport, and event
+                                                  parking at thousands of lots and garages worldwide.</p>
+                                             <a href="/project-parkeasy.html" class="btn">View case study</a>
+                                        </div>
+                                        <div class="project-mockup-wrapper">
+                                             <img src="/images/projects/Parkeasy-mockup.png" alt="Project Parkeasy"
+                                                  width="500" height="550" class="project-two-mockup-image">
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+
+          </main>
+
+          <footer class="site-footer">
+               <div class="container">
+                    <div class="footer-inner">
+                         <div class="email-wrapper">
+                              <p class="hidden wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+                                   <a href="mailto:vsdesigns15@gmail.com"
+                                        class="email-address">vsdesigns15@gmail.com</a>
+                              </p>
+                         </div>
+                         <div class="information-wrapper">
+                              <nav class="footer-navigation">
+                                   <ul class="nav small">
+                                        <li class="hidden wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s"><a
+                                                  href="https://www.behance.net/Vsdesigns15" target="_blank">Behance</a>
+                                        </li>
+                                        <li class="hidden wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s"><a
+                                                  href="https://www.linkedin.com/in/velislav-stefanov-a63750193/"
+                                                  target="_blank">LinkedIn</a></li>
+                                        <li class="hidden wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s"><a
+                                                  href="/files/cv.pdf" target="_blank">Download CV</a></li>
+                                   </ul>
+                              </nav>
+                              <p class="copyright very-small hidden wow fadeInUp" data-wow-duration="1s"
+                                   data-wow-delay="0.5s">
+                                   vsdesigns15 ©2022. All Rights Reserved. Made with <span class="small">♥</span> by
+                                   Velislav Stefanov.
+                              </p>
+                              <nav class="disclaimers-navigation">
+                                   <ul class="nav disclaimers very-small">
+                                        <li class="hidden wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s"><a
+                                                  href="https://ui8.net/" target="_blank">UI8</a></li>
+                                        <li class="hidden wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s"><a
+                                                  href="https://icons8.com/" target="_blank">Icons8</a></li>
+                                        <li class="hidden wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.8s"><a
+                                                  href="https://unsplash.com/" target="_blank">Unsplash</a></li>
+                                        <li class="hidden wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.9s"><a
+                                                  href="https://www.ls.graphics/" target="_blank">Is.graphics</a></li>
+                                        <li class="hidden wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s"><a
+                                                  href="https://www.freepik.com/" target="_blank">Freepik</a></li>
+                                   </ul>
+                              </nav>
+                         </div>
+                    </div>
+               </div>
+          </footer>
+
+     </div>
+
+</body>
+
+</html>
